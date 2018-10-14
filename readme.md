@@ -2,8 +2,6 @@
 
 Essa material está sendo criando com intuito de facilitar o aprendizado dos membros da [Associação Empresa Junior de Computação da UESC (TecnoJr)](https://www.tecnojr.com.br/) e qualquer outro estudante da área de computação que tem o desejo de aprender Wordpress
 
-É preciso realizar a instalação no seu
-
 ## Criando um tema
 
 1º Crie uma pasta em wordpress/wp-content/themes/
