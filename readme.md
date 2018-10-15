@@ -33,7 +33,7 @@ Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](ht
 
 
 |              | <center>Wordpress.com</center> | <center>WordPress.org</center>|
-|:------------:|:----------------------|:---------------------| 
+|:------------:|:-------------------------|:-------------------------| 
 |   Vantagens  |       left-aligned    |         $1600        | 
 | Desvantagens | 1. teste <br> 2. teste <br> 3. teste |  1. teste <br> 2. teste |
 
