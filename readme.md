@@ -35,7 +35,7 @@ Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](ht
 |              | Wordpress.com | <center>WordPress.org</center>|
 |------------|-------------------------|-------------------------| 
 |   Vantagens  |       left-aligned    |         $1600        | 
-| Desvantagens | 1. teste <br> lorem 2. teste <br> 3. teste |  1. teste <br> 2. teste |
+| Desvantagens | 1. teste <br> 2. teste <br> 3. teste |  1. teste <br> 2. teste |
 
 ## Instalando o Wordpress
 
