@@ -28,7 +28,7 @@ Abrirá uma página de "Welcome"(bem-vindo). Você deve informar:
 4. Your email: Email para recuperação de acesso;
 5. Search Engine Visibility: Caso você não deseje que os moteres de busca indiquem seu site (é possivel modificar depois).
 
-Após preencher dados você terá concluido a instalação.
+Após preencher dados você terá concluido a instalação. :thumbsup:
 
 
 ## Criando um tema
