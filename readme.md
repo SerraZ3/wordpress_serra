@@ -140,7 +140,11 @@ Esse arquivo será responsável pelo header de todas as páginas. Nele conterá 
 
 Algumas tags são necessárias para o perfeito funcionamento do site.
 
-```<title><?php wp_title(''); ?></title><br><h1>testre</h1>``` <br>
+```php
+<title><?php wp_title(''); ?></title>
+<br>
+<h1>testre</h1>
+``` <br>
 `<title><?php wp_title(''); ?></title>`
 
 
