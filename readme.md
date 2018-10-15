@@ -23,7 +23,7 @@ Preenchido os campos com as devidas informações, você será redirecionado par
 Abrirá uma página de "Welcome"(bem-vindo). Você deve informar:
 1. Site Title: Titulo que o site receberá (pode ser modificado depois);
 2. Username: Usuário de acesso ao painel administrativo do WP;
-3. Password: Senha do acesso ao painel administrativo do WP; ··
+3. Password: Senha do acesso ao painel administrativo do WP;··
 3.1. Caso você coloque senha muito curta deve marcar esse radio button
 4. Your email: Email para recuperação de acesso;
 5. Search Engine Visibility: Caso você não deseje que os moteres de busca indiquem seu site (é possivel modificar depois).
