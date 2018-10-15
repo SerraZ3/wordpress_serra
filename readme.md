@@ -35,6 +35,11 @@ Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](ht
 |   Vantagens  | 1. Atualização automática da versão vigente do WordPress; <br> 2. Backup automático do conteúdo (sem perigo de perder seus posts); <br> 3. Seu blog ficará alojado em centenas de servidores, por isso é pouco provável que fique fora do ar devido ao tráfego intenso; <br> 4. Possiblidade de escolher dentre vários temas, estilos e categorias, gratuitamente;|  1. Liberdade de criar seu próprio tema e alterar o código; <br> 2. Pode adicionar qualquer funcionalidade, seja plugin, widget ou tema; <br>3. Liberdade para usar seu próprio dominio <br> 4. Conexão [FTP](#1-ftp) com seu servidor. | 
 | Desvantagens | 1. Não é possível adicionar temas personalizados ou personalizar o tema escolhido, ficando “preso” apenas aos temas fornecidos pelo WordPress.com; <br> 2. Não existe a opção de personalizar os links permanentes do blog. O que impossibilita torná-los mais amigáveis; <br> 3. Não é possível carregar plugins; <br> 4. Não é possível adicionar banners de publicidade, Google AdSense ou nenhum código JavaScript |  1. Gasto com hospedagem e domínio|
 
+
+### Padrões de condificação Wordpress
+
+Como toda ferramenta tem seu peculiaridade, o WordPress possui as suas. Para que haja uma maior organização existe os Padrões de Codificação. Caso um dia você deseja publicar o seu tema ou plugin no WordPress.org é necessário seguir seu padrão. Para saber mais sobre padrões de codificação do WordPress acesse [todoespacoonline.com](https://www.todoespacoonline.com/w/2014/05/padroes-de-codificacao-wordpress/).
+
 ## Instalando o Wordpress
 
 Primeiro é necessário baixar o arquivo de instalação, você pode encontrar no site 	do [Wordpress.org](https://wordpress.org/) em "Get WordPress".
@@ -70,10 +75,11 @@ Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu
 
 ### Constituição básica de um Tema:
 
-* header.php: onde fica o código do cabeçalho;
-* sidebar.php: onde fica o código da lateral da página;
-* footer.php: onde fica o código do rodapé;
 * index.php: código que mostra a página inicial;
+* header.php: cabeçalho de todoas as páginas do seu tema;
+* footer.php: onde fica o código do rodapé;
+* css/main-style.css: Pasta fica o codigo principal do CSS
+* sidebar.php: onde fica o código da lateral da página;
 * single.php: código que mostra o artigo na sua própria página;
 * page.php: código que mostra o conteúdo de uma página estática;
 * archive.php: o código nesta parte vai mostrar os artigos que estão no arquivo, nas categorias, tags, etc;
@@ -97,7 +103,7 @@ Crie um arquivo e nomei como **style.css** e depois abra-o.
 * Author URI: Link individual ou organizacional do Autor.
 * Description (\*): Pequena descrição sobre o Tema.
 * Version (\*): Versão do Tema. A cada atualização deve modificar.
-* License (\*): Nome da licença, caso tenha.
+* License (\*): Nome da licença.
 * License URI (\*): Link que leva para a lincença.
 * Text Domain (\*): Usado para traduzir seu tema para outras linhagens
 * Tags: Palavras que representem caracteristicas do seu tema. Essas palavras ajudam na pesquisa. As palavras devem ser separadas de por virgula. Nesse formato "azul, blue, claro, calmo,..."
