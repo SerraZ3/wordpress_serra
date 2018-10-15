@@ -92,7 +92,7 @@ Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu
 * archive.php: o código nesta parte vai mostrar os artigos que estão no arquivo, nas categorias, tags, etc;
 * functions.php: local onde ficam algumas funções que adicionam mais capacidades aos temas;
 * 404.php: mostrará um texto para avisar que o conteúdo não foi encontrado;
-* style.css: ficheiro onde fica o stylesheet do tema.
+* style.css: ficheiro onde fica as informações do tema e pode conter todo o conteudo CSS do tema (Opcional).
 
 Para um tema funciona basta ter apenas os arquivos **style.css** e **index.php**. Entretanto seu tema não será robusto.
 
@@ -128,11 +128,25 @@ O arquivo style.css funciona exatamente como qualquer outro arquivo .css. Você 
 
 Essa será a página principal, a primeira a ser vista quando acessarem seu site. Ela pode ser personalizada da forma que desejar, como se fosse estivesse fazendo um site normal. Entretanto, existe algumas funções do WordPress que servem para ajudar e tornar o processo mais eficiente.
 
-#### Funções muito utilizadas:
+#### Templates Tags muito utilizadas:
 
 * get_header(); ==> Chamar o arquivo header.php para a página
 * get_sidebar(); ==> Chamar o arquivo sidebar.php para a página
 * get_footer(); ==> Chamar o arquivo footer.php para a página
+
+### header.php
+
+Esse arquivo será responsável pelo header de todas as páginas. Nele conterá algumas informaçoes essenciais para o ser WP.
+
+Algumas tags são necessárias para o perfeito funcionamento do site.
+
+'''<title><?php wp_title(''); ?></title>'''
+
+
+#### Template Tags utilizados:
+
+* bloginfo(); ==> Retorna informações do site;
+
 
 ## Apêndice
 
