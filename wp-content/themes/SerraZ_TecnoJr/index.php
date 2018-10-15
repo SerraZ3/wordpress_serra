@@ -8,18 +8,9 @@
 </head>
 <body>
 <div id="corpo">
-    <div id="header">
-        <h1>Titulo do Site</h1>
-        <h2>Descrição do site</h2>
-         
-        <ul id="nav">
-            <li><a href="#">Página 1</a></li>
-            <li><a href="#">Página 2</a></li>
-            <li><a href="#">Página 3</a></li>
-            <li><a href="#">Página 4</a></li>
-        </ul>
-    </div>
-     
+    <!-- Chama arquivo "header.php" -->
+    <?php get_header(); ?>
+
     <div id="conteudo">
         <div id="artigos">
             <div class="artigo">
@@ -33,32 +24,14 @@
                 <p>Postado por administrador em 16/01/2012</p>
                 <p>Conteudo do artigo</p>
             </div>
-        </div>
-         
-        <div id="sidebar">
-            <ul class="widget">
-                <h3>Widget</h3>
-                <li><a href="#">Página 1</a></li>
-                <li><a href="#">Página 2</a></li>
-                <li><a href="#">Página 3</a></li>
-                <li><a href="#">Página 4</a></li>
-            </ul>
-         
-            <ul class="widget">
-                <h3>Widget</h3>
-                <li><a href="#">Categoria 1</a></li>
-                <li><a href="#">Categoria 2</a></li>
-                <li><a href="#">Categoria 3</a></li>
-                <li><a href="#">Categoria 4</a></li>
-            </ul>
+
+            <!-- Chama arquivo "sidebar.php" -->
+            <?php get_sidebar(); ?>
+
         </div>
     </div>
-     
-    <div id="footer">
-        <p>&copy; 2012 - Todos os Direitos Reservados</p>
-    </div>
-     
-</div>
-     
-</body>
-</html>
+
+<!-- Chama arquvio "footer.php" -->
+<?php get_footer(); ?>
+
+  

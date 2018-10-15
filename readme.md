@@ -7,10 +7,26 @@ Essa material está sendo criando com intuito de facilitar o aprendizado dos mem
 
 ## Sumário
 
-1. [Instalando o Wordpress](#instalando-o-wordpress)
-2. [Criando Tema](#criando-um-tema)
+1; [Introdução](#introdução)
+2. [Instalando o Wordpress](#instalando-o-wordpress)
+3. [Criando Tema](#criando-um-tema)
 
-**Conhecimentos prévios:** HTML, CSS e PHP.
+**Conhecimentos prévios recomendados:** HTML, CSS e PHP.
+
+## Introdução
+
+### O que é o WordPress?
+
+WordPress é uma ferramenta para criação de sites. Ele possibilita a criação de blogs, e-commerces, dentre diversos outros tipos de sites de forma dinâmica, ou seja, pode ser alterado por um painel administrativo.
+
+Sistema de Gestão de Conteúdo, essa é a característa do WP. Esse tipo de sistema possibilita o usuário publicar, editar, modificar, organizar e deletar conteúdos.
+
+### Como começar?
+
+O WordPress possui um site, [WordPress.com](https://wordpress.com/), que oferece serviços gratuito de criação e hospedagem de blogs, uma ótima opção para quem não deseja investir em hospedagem ou dominio e que tem um pequeno site. Entretanto, seu dominio fica restrito a, por exemplo, *seublog.wordpress.com*. Você receberá acesso para postar e modificar seu site, porém, a costomização é muito limitada pois você apenas pode usar os layout fornecidos no site, não podendo realizar customizão própria.
+
+Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](https://wordpress.org/). Ele ofere os códigos do WordPress além de possuir diversos tema, plugins, dentre outras coisas que ajudam a estilizar e melhorar seu site. 
+
 
 ## Instalando o Wordpress
 
@@ -76,7 +92,7 @@ Crie um arquivo e nomei como **style.css** e depois abra-o.
 * Version (\*): Versão do Tema. A cada atualização deve modificar.
 * License (\*): Nome da licença, caso tenha.
 * License URI (\*): Link que leva para a lincença.
-* Text Domain (\*): ??
+* Text Domain (\*): Usado para traduzir seu tema para outras linhagens
 * Tags: Palavras que representem caracteristicas do seu tema. Essas palavras ajudam na pesquisa. As palavras devem ser separadas de por virgula. Nesse formato "azul, blue, claro, calmo,..."
 * Domain Path: ??. Defaults to /languages.
 * Template: Serve para referenciar o Tema pai. Usado para quando você cria um Tema baseado em outro Tema. 
