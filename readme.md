@@ -2,7 +2,7 @@
 
 Essa material está sendo criando com intuito de facilitar o aprendizado dos membros da [Associação Empresa Junior de Computação da UESC (TecnoJr)](https://www.tecnojr.com.br/) e qualquer outro estudante da área de computação que tenha o desejo de aprender Wordpress
 
-**Desenvolvido por:**
+#### Desenvolvido por:
 [Henrique A. Serra](https://github.com/SerraZ3/) :smile: :metal:
 
 #### Conhecimentos prévios: HTML, CSS e PHP
