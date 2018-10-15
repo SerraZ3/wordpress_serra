@@ -5,13 +5,15 @@ Essa material está sendo criando com intuito de facilitar o aprendizado dos mem
 **Desenvolvido por:**
 [Henrique A. Serra](https://github.com/SerraZ3/) :smile: :metal:
 
+[Criando Tema](#criar_tema)
+
 #### Conhecimentos prévios: HTML, CSS e PHP
 
 ## Instalando o Wordpress
 
 Primeiro é necessário baixar o arquivo de instalação, você pode encontrar no site 	do [Wordpress.org](https://wordpress.org/) em "Get WordPress".
 
-**AVISO:** É necessário possuir o LAMP ou XAMPP em seu computador, pois o WordPress(WP) é feito em PHP e necessita do APACHE, além disso, precisa de conexão com Banco de Dado.
+**AVISO:** É necessário o LAMP ou XAMPP em seu computador, pois o WordPress(WP) é feito em PHP e necessita do APACHE, além disso, precisa de conexão com Banco de Dado.
 
 Após baixado, você deve colocar o arquivo .zip (ou .tar.gz) no seu diretório do localhost. Extraia o arquivo. Acesse a pasta extraida pelo navegador (localhost/"nome_pasta_wp"), ela irá te direcionar para uma pagina de instalação. Caso essa página não apareça você pode acessar pelo endereço **localhost/"nome_pasta_wp"/wp-admin/setup-config.php**.
 
@@ -36,7 +38,7 @@ Abrirá uma página de "Welcome"(bem-vindo). Você deve informar:
 Após preencher dados você terá concluido a instalação. :thumbsup:
 
 
-## Criando um tema
+## Criando um tema (#criar_tema)
 
 Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu tema. O wordpress consegue identificar pastas e arquivos em locais ou com nomes específicos. A depender do local ou do nome ele realizará uma função preestabelecida. Nesse arquivo está a constituição básica de um tema.
 
@@ -82,7 +84,5 @@ Crie um arquivo e nomei como **style.css** e depois abra-o.
 #### Estilizando seu Tema:
 
 O arquivo style.css funciona exatamente como qualquer outro arquivo .css. Você pode modificar qualquer atributo de qualquer tag, class ou id sem problema algum.
-
-
 
 ### index.php
