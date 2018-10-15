@@ -41,7 +41,7 @@ Como toda ferramenta tem seu peculiaridade, o WordPress possui as suas. Para que
 
 ### Codex
 
-O WordPress.org fonece o [Codex](https://codex.wordpress.org/) onde pode-se encontrar diversas explicações sobre as funções do WordPress, além de explicar como criar e editar algumas funcionalidades do WordPress.
+O WordPress.org fonece o [Codex](https://codex.wordpress.org/) onde pode-se encontrar diversas explicações sobre as funcionalidades do WordPress, além de que ensina como usar o WordPress.
 
 ### Funções do WordPress
 
