@@ -5,7 +5,7 @@ Essa material está sendo criando com intuito de facilitar o aprendizado dos mem
 **Desenvolvido por:**
 [Henrique A. Serra](https://github.com/SerraZ3/) :smile: :metal:
 
-[Criando Tema](##Criando-um-tema)
+[Criando Tema](#Criando-um-tema)
 
 #### Conhecimentos prévios: HTML, CSS e PHP
 
@@ -38,7 +38,7 @@ Abrirá uma página de "Welcome"(bem-vindo). Você deve informar:
 Após preencher dados você terá concluido a instalação. :thumbsup:
 
 
-## Criando um tema (#criar_tema)
+## Criando um tema
 
 Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu tema. O wordpress consegue identificar pastas e arquivos em locais ou com nomes específicos. A depender do local ou do nome ele realizará uma função preestabelecida. Nesse arquivo está a constituição básica de um tema.
 
