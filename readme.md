@@ -59,7 +59,7 @@ Nesse arquivo ficará todas as configurações visuais do seu Tema. Além disso,
 
 Crie um arquivo e nomei como **style.css** e depois abra-o.
 
-#### 1ª parte: Informações do seu Tema:
+#### Informações do seu Tema:
 
 * Theme Name (\*): Nome do Tema.
 * Theme URI: Página onde o publico pode conseguir mais informações sobreo Tema.
@@ -76,3 +76,11 @@ Crie um arquivo e nomei como **style.css** e depois abra-o.
 
 (\*) = Informações esseciais para o Tema.
 
+
+#### Estilizando seu Tema:
+
+O arquivo style.css funciona exatamente como qualquer outro arquivo .css. Você pode modificar qualquer atributo de qualquer tag, class ou id sem problema algum.
+
+
+
+### index.php
