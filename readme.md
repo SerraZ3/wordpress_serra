@@ -21,12 +21,12 @@ Para continuar é preciso de algumas informações do seu Banco de Dados (BD).
 Preenchido os campos com as devidas informações, você será redirecionado para uma página que possuirá um código. Copie esse código. Abra o arquivo **wp-config.php**, ele se encontra no diretório principal da sua pasta WP. Se não achar o arquivo com esse nome, você deve pegar o arquivo **wp-config-sample.php** e modificar para **wp-config.php**. Copie o codigo nesse no arquivo wp-config.php e salve.
 
 Abrirá uma página de "Welcome"(bem-vindo). Você deve informar:
->1º Site Title: Titulo que o site receberá (pode ser modificado depois);
->2º Username: Usuário de acesso ao painel administrativo do WP;
->3º Password: Senha do acesso ao painel administrativo do WP;
->	3.1 Caso você coloque senha muito curta deve marcar esse radio button
->4º Your email: Email para recuperação de acesso;
->5º Search Engine Visibility: Caso você não deseje que os moteres de busca indiquem seu site (é possivel modificar depois).
+1. Site Title: Titulo que o site receberá (pode ser modificado depois);
+2. Username: Usuário de acesso ao painel administrativo do WP;
+3. Password: Senha do acesso ao painel administrativo do WP;
+3.1. Caso você coloque senha muito curta deve marcar esse radio button
+4. Your email: Email para recuperação de acesso;
+5. Search Engine Visibility: Caso você não deseje que os moteres de busca indiquem seu site (é possivel modificar depois).
 
 Após preencher dados você terá concluido a instalação.
 
