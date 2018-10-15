@@ -113,7 +113,9 @@ O arquivo style.css funciona exatamente como qualquer outro arquivo .css. Você 
 
 ### index.php
 
-####Funções muito utilizadas:
+Essa será a página principal, a primeira a ser vista quando acessarem seu site. Ela pode ser personalizada da forma que desejar, como se fosse estivesse fazendo um site normal. Entretanto, existe algumas funções do WordPress que servem para ajudar e tornar o processo mais eficiente.
+
+#### Funções muito utilizadas:
 
 * get_header(); ==> Chamar o arquivo header.php para a página
 * get_sidebar(); ==> Chamar o arquivo sidebar.php para a página
