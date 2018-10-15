@@ -15,10 +15,10 @@
             <p>Conteudo do artigo</p>
         </div>
 
-        <!-- Chama arquivo "sidebar.php" -->
-        <?php get_sidebar(); ?>
 
     </div>
+    <!-- Chama arquivo "sidebar.php" -->
+    <?php get_sidebar(); ?>
 </div>
 
 <!-- Chama arquvio "footer.php" -->

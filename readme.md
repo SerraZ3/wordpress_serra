@@ -128,11 +128,57 @@ O arquivo style.css funciona exatamente como qualquer outro arquivo .css. Você 
 
 Essa será a página principal, a primeira a ser vista quando acessarem seu site. Ela pode ser personalizada da forma que desejar, como se fosse estivesse fazendo um site normal. Entretanto, existe algumas funções do WordPress que servem para ajudar e tornar o processo mais eficiente.
 
-#### Templates Tags muito utilizadas:
+#### Estrutura básica do index.php
+```html
+<!-- Chama arquivo header.php com o cabeçalho do site -->
+<?php get_header(); ?>
 
-* get_header(); ==> Chamar o arquivo header.php para a página
-* get_sidebar(); ==> Chamar o arquivo sidebar.php para a página
-* get_footer(); ==> Chamar o arquivo footer.php para a página
+<div>
+    <div>
+        <!-- Aqui fica o conteúdo do site -->
+
+
+        <!-- Loop que irá mostrar os posts -->
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+		<!-- Container do artigo -->	
+		<div class="artigo-container">
+			
+			<!-- Título do post -->
+			<h1>
+				<!-- the_permalink(); busca o link do posto que está sendo mostrado -->
+				<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+			</h1>
+			
+			<!-- the_category(); mostra a categoria do post -->
+			<?php the_category(); ?>
+			
+			<!-- the_author(); mostra o autor do post -->
+			<?php the_author(); ?>
+			
+			<!-- the_date(); mostra a data em que foi postado -->
+			<?php the_date(); ?>
+			
+			<!-- the_content(); mostra o conteúdo do post -->
+			<?php the_content(); ?>
+			
+		</div>
+		<!-- Finaliza o loop -->
+		<?php endwhile; ?>
+		<!-- Finaliza o if -->
+		<?php endif; ?>
+    </div>
+    <!-- Chama arquivo sidebar.php -->
+    <?php get_sidebar(); ?>
+</div>
+
+<!-- Chama arquvio "footer.php" -->
+<?php get_footer(); ?>
+
+
+```
+
+
 
 ### header.php
 
@@ -142,14 +188,23 @@ Algumas tags são necessárias para o perfeito funcionamento do site.
 
 ```html
 <!-- Pega o titulo do site -->
-<title>
-	<?php wp_title(''); ?>
-</title>
+<title><?php wp_title(''); ?></title>
+
+<!-- Necessário para layout responsivo -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Busca o charset padrão fornecido pelo WordPress -->
+<meta charset="<?php bloginfo('charset'); ?>">
+
+<!--  -->
+
 ```
 
+## Template Tags mais utilizados:
 
-#### Template Tags utilizados:
-
+* get_header(); ==> Chamar o arquivo header.php para a página
+* get_sidebar(); ==> Chamar o arquivo sidebar.php para a página
+* get_footer(); ==> Chamar o arquivo footer.php para a página
 * bloginfo(); ==> Retorna informações do site;
 
 
