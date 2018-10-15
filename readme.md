@@ -137,7 +137,6 @@ Essa será a página principal, a primeira a ser vista quando acessarem seu site
     <div>
         <!-- Aqui fica o conteúdo do site -->
 
-
 		<!-- Loop que irá mostrar os posts -->
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
