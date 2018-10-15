@@ -7,7 +7,7 @@ Essa material está sendo criando com intuito de facilitar o aprendizado dos mem
 
 ## Sumário
 
-1; [Introdução](#introdução)
+1. [Introdução](#introdução)
 2. [Instalando o Wordpress](#instalando-o-wordpress)
 3. [Criando Tema](#criando-um-tema)
 
