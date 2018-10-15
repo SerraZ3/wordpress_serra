@@ -120,7 +120,6 @@ O arquivo style.css funciona exatamente como qualquer outro arquivo .css. Você 
 
 #### 1. FTP
 
-> FTP é a sigla para File Transfer Protocol, um termo que, traduzido para o português, significa Protocolo de Transferência de Arquivos.
+> FTP é a sigla para File Transfer Protocol, um termo que, traduzido para o português, significa Protocolo de Transferência de Arquivos. <br>
 > Ele é basicamente um tipo de conexão que permite a troca de arquivos entre dois computadores conectados à internet. Com ela, você pode enviar qualquer coisa para uma outra máquina ou armazená-los em um servidor FTP, ficando ela sempre disponível para o usuário acessar.  
 
- 
