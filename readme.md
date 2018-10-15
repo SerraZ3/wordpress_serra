@@ -5,7 +5,7 @@ Essa material está sendo criando com intuito de facilitar o aprendizado dos mem
 **Desenvolvido por:**
 [Henrique A. Serra](https://github.com/SerraZ3/) :smile: :metal:
 
-[Criando Tema](#criar_tema)
+[Criando Tema](#Criando um tema)
 
 #### Conhecimentos prévios: HTML, CSS e PHP
 
