@@ -5,6 +5,8 @@ Essa material está sendo criando com intuito de facilitar o aprendizado dos mem
 **Desenvolvido por:**
 [Henrique A. Serra](https://github.com/SerraZ3/) :smile: :metal:
 
+#### Conhecimentos prévios: HTML, CSS e PHP
+
 ## Instalando o Wordpress
 
 Primeiro é necessário baixar o arquivo de instalação, você pode encontrar no site 	do [Wordpress.org](https://wordpress.org/) em "Get WordPress".
@@ -70,7 +72,7 @@ Crie um arquivo e nomei como **style.css** e depois abra-o.
 * License (\*): Nome da licença, caso tenha.
 * License URI (\*): Link que leva para a lincença.
 * Text Domain (\*): ??
-* Tags: Palavras que representem seu tema. Essas palavras ajudam na pesquisa. As palavras devem ser separadas de por virgula. Nesse formato "azul, blue, claro, calmo,..."
+* Tags: Palavras que representem caracteristicas do seu tema. Essas palavras ajudam na pesquisa. As palavras devem ser separadas de por virgula. Nesse formato "azul, blue, claro, calmo,..."
 * Domain Path: ??. Defaults to /languages.
 * Template: Serve para referenciar o Tema pai. Usado para quando você cria um Tema baseado em outro Tema. 
 
