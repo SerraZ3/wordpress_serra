@@ -25,7 +25,7 @@ Sistema de Gestão de Conteúdo, essa é a característa do WP. Esse tipo de sis
 
 O WordPress possui um site, [WordPress.com](https://wordpress.com/), que oferece serviços gratuito de criação e hospedagem de blogs, uma ótima opção para quem não deseja investir em hospedagem ou dominio e que tem um pequeno site. Entretanto, seu dominio fica restrito a, por exemplo, *seublog.wordpress.com*. 
 
-Você receberá acesso para postar e modificar seu site, porém, a costomização é muito limitada pois você apenas pode usar os layout fornecidos no site, não podendo realizar customizão própria. Além disso, não poderá instalar plugins, utilizar publicidade (programa de afiliados) ou um sistema de métricas, como o [Google Analytics](https://analytics.google.com/analytics/web/provision/?authuser=0#provision/SignUp/). Você não terá acesso FTP do servidor e terá que exibir obrigatoriamente no rodapé "Aloje seu blog com WordPress.com". 
+Você receberá acesso para postar e modificar seu site, porém, a costomização é muito limitada pois você apenas pode usar os layout fornecidos no site, não podendo realizar customizão própria. Além disso, não poderá instalar plugins, utilizar publicidade (programa de afiliados) ou um sistema de métricas, como o [Google Analytics](https://analytics.google.com/analytics/web/provision/?authuser=0#provision/SignUp/). Você não terá acesso [FTP](#1-ftp) do servidor e terá que exibir obrigatoriamente no rodapé "Aloje seu blog com WordPress.com". 
 
 
 
@@ -34,7 +34,7 @@ Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](ht
 
 |              | Wordpress.com | <center>WordPress.org</center>|
 |------------|-------------------------|-------------------------| 
-|   Vantagens  |       left-aligned    |         $1600        | 
+|   Vantagens  | 1.     |         $1600        | 
 | Desvantagens | 1. teste <br> 2. teste <br> 3. teste |  1. teste <br> 2. teste |
 
 ## Instalando o Wordpress
@@ -119,3 +119,8 @@ O arquivo style.css funciona exatamente como qualquer outro arquivo .css. Você 
 ## Apêndice
 
 #### 1. FTP
+
+> FTP é a sigla para File Transfer Protocol, um termo que, traduzido para o português, significa Protocolo de Transferência de Arquivos.
+> Ele é basicamente um tipo de conexão que permite a troca de arquivos entre dois computadores conectados à internet. Com ela, você pode enviar qualquer coisa para uma outra máquina ou armazená-los em um servidor FTP, ficando ela sempre disponível para o usuário acessar.  
+
+ 
