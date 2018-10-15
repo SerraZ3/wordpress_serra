@@ -36,9 +36,7 @@ Após preencher dados você terá concluido a instalação. :thumbsup:
 
 ## Criando um tema
 
-Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu tema. O wordpress consegue identificar pastas e arquivos em locais ou com nomes específicos. A depender do local ou do nome ele realizará uma função preestabelecida.
-
-Nesse arquivo está a constituição básica de um tema.
+Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu tema. O wordpress consegue identificar pastas e arquivos em locais ou com nomes específicos. A depender do local ou do nome ele realizará uma função preestabelecida. Nesse arquivo está a constituição básica de um tema.
 
 ### Constituição básica de um Tema:
 
@@ -61,7 +59,20 @@ Nesse arquivo ficará todas as configurações visuais do seu Tema. Além disso,
 
 Crie um arquivo e nomei como **style.css** e depois abra-o.
 
-#### 1ª parte: Informações do seu Tema
+#### 1ª parte: Informações do seu Tema:
 
+Theme Name (*): Nome do Tema.
+Theme URI: Página onde o publico pode conseguir mais informações sobreo Tema.
+Author (*): Nome do Autor do Tema.
+Author URI: Link individual ou organizacional do Autor.
+Description (*): Pequena descrição sobre o Tema.
+Version (*): Versão do Tema. A cada atualização deve modificar.
+License (*): Nome da licença, caso tenha.
+License URI (*): Link que leva para a lincença.
+Text Domain (*): ??
+Tags: Palavras que representem seu tema. Essas palavras ajudam na pesquisa. As palavras devem ser separadas de por virgula. Nesse formato "azul, blue, claro, calmo,..."
+Domain Path: ??. Defaults to /languages.
+Template: Serve para referenciar o Tema pai. Usado para quando você cria um Tema baseado em outro Tema. 
 
+(*) = Informações esseciais para o Tema.
 
