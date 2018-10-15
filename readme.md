@@ -1,14 +1,15 @@
 # Intrudução ao Wordpress
 
-Essa material está sendo criando com intuito de facilitar o aprendizado dos membros da [Associação Empresa Junior de Computação da UESC (TecnoJr)](https://www.tecnojr.com.br/) e qualquer outro estudante da área de computação que tem o desejo de aprender Wordpress
+Essa material está sendo criando com intuito de facilitar o aprendizado dos membros da [Associação Empresa Junior de Computação da UESC (TecnoJr)](https://www.tecnojr.com.br/) e qualquer outro estudante da área de computação que tenha o desejo de aprender Wordpress
 
-Desenvolvido por: [Henrique A. Serra](https://github.com/SerraZ3/) :smile: :metal:
+**Desenvolvido por:**
+[Henrique A. Serra](https://github.com/SerraZ3/) :smile: :metal:
 
 ## Instalando o Wordpress
 
 Primeiro é necessário baixar o arquivo de instalação, você pode encontrar no site 	do [Wordpress.org](https://wordpress.org/) em "Get WordPress".
 
-**AVISO:** É necessário possuir o LAMP ou XAMPP em seu computador, pois o WordPress(WP) é feito em PHP, necessitando do APACHE, e precisa de conexão com Banco de Dado.
+**AVISO:** É necessário possuir o LAMP ou XAMPP em seu computador, pois o WordPress(WP) é feito em PHP e necessita do APACHE, além disso, precisa de conexão com Banco de Dado.
 
 Após baixado, você deve colocar o arquivo .zip (ou .tar.gz) no seu diretório do localhost. Extraia o arquivo. Acesse a pasta extraida pelo navegador (localhost/"nome_pasta_wp"), ela irá te direcionar para uma pagina de instalação. Caso essa página não apareça você pode acessar pelo endereço **localhost/"nome_pasta_wp"/wp-admin/setup-config.php**.
 
@@ -41,15 +42,26 @@ Nesse arquivo está a constituição básica de um tema.
 
 **Constituição básica de um Tema:**
 
-* header.php: local onde fica o código do cabeçalho
-* sidebar.php: local onde fica o código da lateral
-* footer.php: local onde fica o código do rodapé
-* index.php: código que mostra os artigos na página inicial
-* single.php: código que mostra o artigo na sua própria página
-* page.php: código que mostra o conteúdo de uma página estática
-* archive.php: igual ao index.php, o código nesta parte vai mostrar os artigos que estão no arquivo, nas categorias, tags, etc
-* functions.php: local onde ficam algumas funções que adicionam mais capacidades aos temas
-* 404.php: igual ao index.php, em vez de mostrar um artigo deverá de mostrar um texto a avisar que o conteúdo não foi encontrado
-* style.css: ficheiro onde fica o stylesheet do tema
+* header.php: onde fica o código do cabeçalho;
+* sidebar.php: onde fica o código da lateral da página;
+* footer.php: onde fica o código do rodapé;
+* index.php: código que mostra a página inicial;
+* single.php: código que mostra o artigo na sua própria página;
+* page.php: código que mostra o conteúdo de uma página estática;
+* archive.php: o código nesta parte vai mostrar os artigos que estão no arquivo, nas categorias, tags, etc;
+* functions.php: local onde ficam algumas funções que adicionam mais capacidades aos temas;
+* 404.php: mostrará um texto para avisar que o conteúdo não foi encontrado;
+* style.css: ficheiro onde fica o stylesheet do tema.
+
+Para um tema funciona basta ter apenas os arquivos **style.css** e **index.php**. Entretanto seu tema não será robusto.
+
+### style.css
+
+Nesse arquivo ficará todas as configurações visuais do seu Tema. Além disso, possuirá as informações que o WP mostrará sobre seu Tema.
+
+Crie um arquivo e nomei como **style.css** e depois abra-o.
+
+### 1ª parte: Informações do seu Tema
+
 
 
