@@ -138,33 +138,36 @@ Essa será a página principal, a primeira a ser vista quando acessarem seu site
         <!-- Aqui fica o conteúdo do site -->
 
 
-        <!-- Loop que irá mostrar os posts -->
+		<!-- Loop que irá mostrar os posts -->
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 		<!-- Container do artigo -->	
 		<div class="artigo-container">
 			
-			<!-- Título do post -->
+			<!-- Título do poster -->
 			<h1>
 				<!-- the_permalink(); busca o link do posto que está sendo mostrado -->
+				<!-- the_title(); mostra o titulo respectivo ao poster -->
 				<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 			</h1>
 			
-			<!-- the_category(); mostra a categoria do post -->
+			<!-- the_category(); mostra a categoria do poster -->
 			<?php the_category(); ?>
 			
-			<!-- the_author(); mostra o autor do post -->
+			<!-- the_author(); mostra o autor do poster -->
 			<?php the_author(); ?>
 			
 			<!-- the_date(); mostra a data em que foi postado -->
 			<?php the_date(); ?>
 			
-			<!-- the_content(); mostra o conteúdo do post -->
+			<!-- the_content(); mostra o conteúdo do poster -->
 			<?php the_content(); ?>
 			
 		</div>
+
 		<!-- Finaliza o loop -->
 		<?php endwhile; ?>
+
 		<!-- Finaliza o if -->
 		<?php endif; ?>
     </div>
