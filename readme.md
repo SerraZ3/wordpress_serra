@@ -32,7 +32,7 @@ Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](ht
 
 |             | Wordpress.com | WordPress.org |
 |------------|-----------------------|------------------------| 
-|   Vantagens  | 1. Atualização automática da versão vigente do WordPress; <br> 2. Backup automático do conteúdo (sem perigo de perder seus posts); <br> 3. Seu blog ficará alojado em centenas de servidores, por isso é pouco provável que fique fora do ar devido ao tráfego intenso; <br> 4. Possiblidade de escolher dentre vários temas, estilos e categorias, gratuitamente;|  1. Liberdade de criar seu próprio tema e alterar o código; <br> 2. Pode adicionar qualquer funcionalidade, seja plugin, widget ou tema; <br>3. Liberdade para usar seu próprio dominio <br> 4. Conexão FTP com seu servidor. | 
+|   Vantagens  | 1. Atualização automática da versão vigente do WordPress; <br> 2. Backup automático do conteúdo (sem perigo de perder seus posts); <br> 3. Seu blog ficará alojado em centenas de servidores, por isso é pouco provável que fique fora do ar devido ao tráfego intenso; <br> 4. Possiblidade de escolher dentre vários temas, estilos e categorias, gratuitamente;|  1. Liberdade de criar seu próprio tema e alterar o código; <br> 2. Pode adicionar qualquer funcionalidade, seja plugin, widget ou tema; <br>3. Liberdade para usar seu próprio dominio <br> 4. Conexão [FTP](#1-ftp) com seu servidor. | 
 | Desvantagens | 1. Não é possível adicionar temas personalizados ou personalizar o tema escolhido, ficando “preso” apenas aos temas fornecidos pelo WordPress.com; <br> 2. Não existe a opção de personalizar os links permanentes do blog. O que impossibilita torná-los mais amigáveis; <br> 3. Não é possível carregar plugins; <br> 4. Não é possível adicionar banners de publicidade, Google AdSense ou nenhum código JavaScript |  1. Gasto com hospedagem e domínio|
 
 ## Instalando o Wordpress
@@ -113,6 +113,11 @@ O arquivo style.css funciona exatamente como qualquer outro arquivo .css. Você 
 
 ### index.php
 
+####Funções muito utilizadas:
+
+* get_header(); ==> Chamar o arquivo header.php para a página
+* get_sidebar(); ==> Chamar o arquivo sidebar.php para a página
+* get_footer(); ==> Chamar o arquivo footer.php para a página
 
 ## Apêndice
 
