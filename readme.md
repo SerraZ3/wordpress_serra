@@ -18,7 +18,7 @@ Para continuar é preciso de algumas informações do seu Banco de Dados (BD).
 5. Table Prefix (Prefixo da tabela): Essa será o nome que o WP adotara para o inicio de toda tabela que será gerada por ele. Por convensão dexa-se o ultimo caracter como "_".
 **OBS.:**Essas informações deverão ser modificadas caso haja transferencia para outro banco de dados.
 
-Preenchido os campos com as devidas informações, você será redirecionado para uma página que possuirá um código. Copie esse código. Abra o arquivo **wp-config.php**, ele se encontra no diretório principal da sua pasta WP. Se não achar o arquivo com esse nome, você deve pegar o arquivo **wp-config-sample.php** e modificar para **wp-config.php**. Copie o codigo nesse no arquivo wp-config.php e salve.
+Preenchido os campos com as devidas informações, você será redirecionado para uma página que possuirá um código. Copie esse código. Abra o arquivo **wp-config.php**, ele se encontra no diretório principal da sua pasta WP. Se não achar o arquivo com esse nome, você deve pegar o arquivo **wp-config-sample.php** e modificar para **wp-config.php**. Copie o codigo nesse no arquivo **wp-config.php** e salve.
 
 Abrirá uma página de "Welcome"(bem-vindo). Você deve informar:
 1. Site Title: Titulo que o site receberá (pode ser modificado depois);
@@ -33,8 +33,9 @@ Após preencher dados você terá concluido a instalação. :thumbsup:
 
 ## Criando um tema
 
-1º Crie uma pasta em wordpress/wp-content/themes/
+Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu tema. O wordpress consegue identificar pastas e arquivos em locais ou com nomes específicos. A depender do local ou do nome ele realizará uma função preestabelecida.
 
+Nesse arquivo está a constituição básica de um tema.
 
 Constituição básica de um Tema:
 
