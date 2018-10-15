@@ -40,7 +40,7 @@ Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu
 
 Nesse arquivo está a constituição básica de um tema.
 
-**Constituição básica de um Tema:**
+### Constituição básica de um Tema:
 
 * header.php: onde fica o código do cabeçalho;
 * sidebar.php: onde fica o código da lateral da página;
@@ -61,7 +61,7 @@ Nesse arquivo ficará todas as configurações visuais do seu Tema. Além disso,
 
 Crie um arquivo e nomei como **style.css** e depois abra-o.
 
-### 1ª parte: Informações do seu Tema
+#### 1ª parte: Informações do seu Tema
 
 
 
