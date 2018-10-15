@@ -8,8 +8,27 @@ Primeiro é necessário baixar o arquivo de instalação, você pode encontrar n
 
 **AVISO:** É necessário possuir o LAMP ou XAMPP em seu computador, pois o WordPress(WP) é feito em PHP, necessitando do APACHE, e precisa de conexão com Banco de Dado.
 
-Após baixado, você deve colocar o arquivo .zip (ou .tar.gz) no seu diretório do localhost. Extraia o arquivo. Acesse a pasta extraida pelo navegador (localhost/"nome_pasta_wp"), ela irá te direcionar para uma pagina de instalação. Caso essa página não apareça você pode acessar pelo endereço **http://localhost/"nome_pasta_wp"/wp-admin/setup-config.php**.
+Após baixado, você deve colocar o arquivo .zip (ou .tar.gz) no seu diretório do localhost. Extraia o arquivo. Acesse a pasta extraida pelo navegador (localhost/"nome_pasta_wp"), ela irá te direcionar para uma pagina de instalação. Caso essa página não apareça você pode acessar pelo endereço **localhost/"nome_pasta_wp"/wp-admin/setup-config.php**.
 
+Para continuar é preciso de algumas informações do seu Banco de Dados (BD).
+	1º Database name (nome do BD): Você deve criar um BD que será usado pelo WP. Após criar deve informá-lo no campo;
+	2º Username (Nome do usuário): Nome do usuário do BD;
+	3º Password (Senha): Senha do usuário BD;
+	4º Database Host (Endereço do BD): Como seu WP será local, pode colocar como "localhost" ou "127.0.0.1" (IP do localhost);
+	5º Table Prefix (Prefixo da tabela): Essa será o nome que o WP adotara para o inicio de toda tabela que será gerada por ele. Por convensão dexa-se o ultimo caracter como "_".
+**OBS.:**Essas informações deverão ser modificadas caso haja transferencia para outro banco de dados.
+
+Preenchido os campos com as devidas informações, você será redirecionado para uma página que possuirá um código. Copie esse código. Abra o arquivo **wp-config.php**, ele se encontra no diretório principal da sua pasta WP. Se não achar o arquivo com esse nome, você deve pegar o arquivo **wp-config-sample.php** e modificar para **wp-config.php**. Copie o codigo nesse no arquivo wp-config.php e salve.
+
+Abrirá uma página de "Welcome"(bem-vindo). Você deve informar:
+	1º Site Title: Titulo que o site receberá (pode ser modificado depois);
+	2º Username: Usuário de acesso ao painel administrativo do WP;
+	3º Password: Senha do acesso ao painel administrativo do WP;
+		3.1 Caso você coloque senha muito curta deve marcar esse radio button
+	4º Your email: Email para recuperação de acesso;
+	5º Search Engine Visibility: Caso você não deseje que os moteres de busca indiquem seu site (é possivel modificar depois).
+
+Após preencher dados você terá concluido a instalação.
 
 
 ## Criando um tema
