@@ -33,7 +33,7 @@ Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](ht
 
 
 |              |      Wordpress.com    |     WordPress.org    |
-|--------------|:---------------------:|---------------------:| 
+|--------------|:---------------------:|:---------------------:| 
 |   Vantagens  |       left-aligned    |         $1600        | 
 | Desvantagens | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur voluptates distinctio illum atque obcaecati assumenda placeat! Sunt aut dolorem iusto earum quam vel eum, sed officia minima tenetur perferendis sapiente. | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ea officiis rerum, deserunt consequatur, reprehenderit, error fugiat odit nostrum odio tenetur earum similique. Commodi dolore, quasi, tempora similique consequatur quibusdam? |
 
