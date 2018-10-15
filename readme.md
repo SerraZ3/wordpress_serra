@@ -35,7 +35,7 @@ Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](ht
 |   Vantagens  | 1. Atualização automática da versão vigente do WordPress; <br> 2. Backup automático do conteúdo (sem perigo de perder seus posts); <br> 3. Seu blog ficará alojado em centenas de servidores, por isso é pouco provável que fique fora do ar devido ao tráfego intenso; <br> 4. Possiblidade de escolher dentre vários temas, estilos e categorias, gratuitamente;|  1. Liberdade de criar seu próprio tema e alterar o código; <br> 2. Pode adicionar qualquer funcionalidade, seja plugin, widget ou tema; <br>3. Liberdade para usar seu próprio dominio <br> 4. Conexão [FTP](#1-ftp) com seu servidor. | 
 | Desvantagens | 1. Não é possível adicionar temas personalizados ou personalizar o tema escolhido, ficando “preso” apenas aos temas fornecidos pelo WordPress.com; <br> 2. Não existe a opção de personalizar os links permanentes do blog. O que impossibilita torná-los mais amigáveis; <br> 3. Não é possível carregar plugins; <br> 4. Não é possível adicionar banners de publicidade, Google AdSense ou nenhum código JavaScript |  1. Gasto com hospedagem e domínio|
 
-
+sa
 ### Padrões de condificação Wordpress
 
 Como toda ferramenta tem seu peculiaridade, o WordPress possui as suas. Para que haja uma maior organização existe os Padrões de Codificação. Caso um dia você deseja publicar o seu tema ou plugin no WordPress.org é necessário seguir seu padrão. Para saber mais sobre padrões de codificação do WordPress acesse [todoespacoonline.com](https://www.todoespacoonline.com/w/2014/05/padroes-de-codificacao-wordpress/).
