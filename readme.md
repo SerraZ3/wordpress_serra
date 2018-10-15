@@ -1,6 +1,8 @@
-# Wordpress - Henrique A. Serra
+# Intrudução ao Wordpress
 
 Essa material está sendo criando com intuito de facilitar o aprendizado dos membros da [Associação Empresa Junior de Computação da UESC (TecnoJr)](https://www.tecnojr.com.br/) e qualquer outro estudante da área de computação que tem o desejo de aprender Wordpress
+
+Desenvolvido por: [Henrique A. Serra](https://github.com/SerraZ3/) :smile: :metal:
 
 ## Instalando o Wordpress
 
@@ -37,7 +39,7 @@ Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu
 
 Nesse arquivo está a constituição básica de um tema.
 
-Constituição básica de um Tema:
+**Constituição básica de um Tema:**
 
 * header.php: local onde fica o código do cabeçalho
 * sidebar.php: local onde fica o código da lateral
@@ -49,3 +51,5 @@ Constituição básica de um Tema:
 * functions.php: local onde ficam algumas funções que adicionam mais capacidades aos temas
 * 404.php: igual ao index.php, em vez de mostrar um artigo deverá de mostrar um texto a avisar que o conteúdo não foi encontrado
 * style.css: ficheiro onde fica o stylesheet do tema
+
+
