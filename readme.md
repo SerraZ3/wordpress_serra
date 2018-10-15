@@ -23,10 +23,16 @@ Sistema de Gestão de Conteúdo, essa é a característa do WP. Esse tipo de sis
 
 ### Como começar?
 
-O WordPress possui um site, [WordPress.com](https://wordpress.com/), que oferece serviços gratuito de criação e hospedagem de blogs, uma ótima opção para quem não deseja investir em hospedagem ou dominio e que tem um pequeno site. Entretanto, seu dominio fica restrito a, por exemplo, *seublog.wordpress.com*. Você receberá acesso para postar e modificar seu site, porém, a costomização é muito limitada pois você apenas pode usar os layout fornecidos no site, não podendo realizar customizão própria.
+O WordPress possui um site, [WordPress.com](https://wordpress.com/), que oferece serviços gratuito de criação e hospedagem de blogs, uma ótima opção para quem não deseja investir em hospedagem ou dominio e que tem um pequeno site. Entretanto, seu dominio fica restrito a, por exemplo, *seublog.wordpress.com*. 
+
+Você receberá acesso para postar e modificar seu site, porém, a costomização é muito limitada pois você apenas pode usar os layout fornecidos no site, não podendo realizar customizão própria. Além disso, não poderá instalar plugins, utilizar publicidade (programa de afiliados) ou um sistema de métricas, como o [Google Analytics](https://analytics.google.com/analytics/web/provision/?authuser=0#provision/SignUp/). Você não terá acesso FTP do servidor e terá que exibir obrigatoriamente no rodapé "Aloje seu blog com WordPress.com". 
+
+
 
 Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](https://wordpress.org/). Ele ofere os códigos do WordPress além de possuir diversos tema, plugins, dentre outras coisas que ajudam a estilizar e melhorar seu site. 
 
+
+|  | Wordpress.com | WordPress.org | |----------|:-------------:|----------:| | Vantagens| left-aligned | $1600 | | Desvantagens | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur voluptates distinctio illum atque obcaecati assumenda placeat! Sunt aut dolorem iusto earum quam vel eum, sed officia minima tenetur perferendis sapiente. | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ea officiis rerum, deserunt consequatur, reprehenderit, error fugiat odit nostrum odio tenetur earum similique. Commodi dolore, quasi, tempora similique consequatur quibusdam? |
 
 ## Instalando o Wordpress
 
@@ -105,3 +111,8 @@ Crie um arquivo e nomei como **style.css** e depois abra-o.
 O arquivo style.css funciona exatamente como qualquer outro arquivo .css. Você pode modificar qualquer atributo de qualquer tag, class ou id sem problema algum.
 
 ### index.php
+
+
+## Apêndice
+
+#### 1. FTP
