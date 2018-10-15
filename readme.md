@@ -25,17 +25,15 @@ Sistema de Gestão de Conteúdo, essa é a característa do WP. Esse tipo de sis
 
 O WordPress possui um site, [WordPress.com](https://wordpress.com/), que oferece serviços gratuito de criação e hospedagem de blogs, uma ótima opção para quem não deseja investir em hospedagem ou dominio e que tem um pequeno site. Entretanto, seu dominio fica restrito a, por exemplo, *seublog.wordpress.com*. 
 
-Você receberá acesso para postar e modificar seu site, porém, a costomização é muito limitada pois você apenas pode usar os layout fornecidos no site, não podendo realizar customizão própria. Além disso, não poderá instalar plugins, utilizar publicidade (programa de afiliados) ou um sistema de métricas, como o [Google Analytics](https://analytics.google.com/analytics/web/provision/?authuser=0#provision/SignUp/). Você não terá acesso [FTP](#1-ftp) do servidor e terá que exibir obrigatoriamente no rodapé "Aloje seu blog com WordPress.com". 
+Você receberá acesso para postar e modificar seu site, porém, a costomização é muito limitada pois você apenas pode usar os layout fornecidos no site, não podendo realizar customizão própria. Além disso, não poderá instalar plugins, utilizar publicidade (programa de afiliados) ou um sistema de métricas, como o [Google Analytics](https://analytics.google.com/analytics/web/provision/?authuser=0#provision/SignUp/). Você não terá acesso [FTP](#1-ftp) do servidor e terá que exibir obrigatoriamente no rodapé "Aloje seu blog com WordPress.com". Existe algumas funcionalidades *Premium*.
 
-
-
-Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](https://wordpress.org/). Ele ofere os códigos do WordPress além de possuir diversos tema, plugins, dentre outras coisas que ajudam a estilizar e melhorar seu site. 
+Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](https://wordpress.org/). Ele ofere os códigos do WordPress além de possuir diversos tema, plugins, dentre outras coisas que ajudam a estilizar e melhorar seu site. Para usar ele basta baixar o arquivo no site e instalá-lo no seu servidor. Você precisará de um dominio.
 
 
 |              | Wordpress.com | <center>WordPress.org</center>|
 |------------|-------------------------|-------------------------| 
-|   Vantagens  | 1.     |         $1600        | 
-| Desvantagens | 1. teste <br> 2. teste <br> 3. teste |  1. teste <br> 2. teste |
+|   Vantagens  | 1.Atualização automática da versão vigente do WordPress; <br> 2. Backup automático do conteúdo (sem perigo de perder seus posts); <br> 3. Seu blog ficará alojado em centenas de servidores, por isso é pouco provável que fique fora do ar devido ao tráfego intenso; <br> 4. Possiblidade de escolher dentre vários temas, estilos e categorias, gratuitamente;    |         $1600        | 
+| Desvantagens | 1. Não é possível adicionar temas personalizados ou personalizar o tema escolhido, ficando “preso” apenas aos temas fornecidos pelo WordPress.com; <br> 2. Não existe a opção de personalizar os links permanentes do blog. O que impossibilita torná-los mais amigáveis; <br> 3. Não é possível carregar plugins; <br> 4. Não é possível adicionar banners de publicidade, Google AdSense ou nenhum código JavaScript |  1. teste <br> 2. teste |
 
 ## Instalando o Wordpress
 
