@@ -32,10 +32,9 @@ Você receberá acesso para postar e modificar seu site, porém, a costomizaçã
 Para aqueles que desejam ter maior liberdade existe também o [WordPress.org](https://wordpress.org/). Ele ofere os códigos do WordPress além de possuir diversos tema, plugins, dentre outras coisas que ajudam a estilizar e melhorar seu site. 
 
 
-|              |      Wordpress.com    |     WordPress.org    |
-|:------------:|:---------------------:|:--------------------:|
-|   Vantagens  |       left-aligned    |         $1600        | 
+|              | <center>Wordpress.com</center> | <center>WordPress.org</center>|
 |:------------:|:----------------------|:---------------------| 
+|   Vantagens  |       left-aligned    |         $1600        | 
 | Desvantagens | 1. teste <br> 2. teste <br> 3. teste |  1. teste <br> 2. teste |
 
 ## Instalando o Wordpress
