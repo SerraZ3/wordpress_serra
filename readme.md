@@ -5,10 +5,10 @@ Essa material está sendo criando com intuito de facilitar o aprendizado dos mem
 **Desenvolvido por:**
 [Henrique A. Serra](https://github.com/SerraZ3/) :smile: :metal:
 
-# Sumário
+## Sumário
 
-1.[Instalando o Wordpress](#instalando-o-wordpress)
-2.[Criando Tema](#criando-um-tema)
+1. [Instalando o Wordpress](#instalando-o-wordpress)
+2. [Criando Tema](#criando-um-tema)
 
 **Conhecimentos prévios:** HTML, CSS e PHP.
 
