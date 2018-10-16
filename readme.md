@@ -176,8 +176,12 @@ Essa será a página principal, a primeira a ser vista quando acessarem seu site
 
 <!-- Chama arquvio "footer.php" -->
 <?php get_footer(); ?>
+```
 
+**NOTA:** Se você possui um template diferenciado para o header ou footer você pode criar um arquivo header-nomedesejado.php. Suponhamos que o arquivo seja header-modelo.php devemos chamá-lo dessa formar:
 
+```php
+<?php get_header('modelo');
 ```
 
 
@@ -207,7 +211,7 @@ Algumas tags são necessárias para o perfeito funcionamento do site.
 * get_header(); ==> Chamar o arquivo header.php para a página
 * get_sidebar(); ==> Chamar o arquivo sidebar.php para a página
 * get_footer(); ==> Chamar o arquivo footer.php para a página
-* bloginfo(); ==> Retorna informações do site;
+* bloginfo(); ==> Retorna informações do site a depender do parametro;
 
 
 ## Apêndice
