@@ -82,28 +82,28 @@ Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu
 
 ### Constituição básica de um Tema:
 
-* index.php: código que mostra a página inicial;
-* header.php: cabeçalho de todoas as páginas do seu tema;
-* footer.php: onde fica o código do rodapé;
-* css/main-style.css: Pasta fica o codigo principal do CSS
-* sidebar.php: onde fica o código da lateral da página;
-* single.php: código que mostra o artigo na sua própria página;
-* single-{post-type}.php: ??
-* page.php: código que mostra o conteúdo de uma página estática;
-* archive.php: o código nesta parte vai mostrar os artigos que estão no arquivo, nas categorias, tags, etc;
-* functions.php: local onde ficam algumas funções que adicionam mais capacidades aos temas;
-* 404.php: mostrará um texto para avisar que o conteúdo não foi encontrado;
-* style.css: ficheiro onde fica as informações do tema e pode conter todo o conteudo CSS do tema (Opcional);
-* comments.php: Arquivo que possui o modelo do comentário;
-* front-page.php: ??
-* home.php: ??
-* category.php: ??
-* tag.php: ??
-* taxonomy.php: ??
-* author.php: ??
-* date.php: ??
-* attachment.php: ??
-* image.php: ??
+* **index.php:** código que mostra a página inicial;
+* **header.php:** cabeçalho de todoas as páginas do seu tema;
+* **footer.php:** onde fica o código do rodapé;
+* **css/main-style.css:** Pasta fica o codigo principal do CSS
+* **sidebar.php:** onde fica o código da lateral da página;
+* **single.php:** código que mostra o artigo na sua própria página;
+* **single-{post-type}.php:** código que mostra o artigo na sua própria página, porem em algum post diferente (video, galeria, etc);
+* **page.php:** código que mostra o conteúdo de uma página estática;
+* **archive.php:** o código nesta parte vai mostrar os artigos que estão no arquivo, nas categorias, tags, etc;
+* **functions.php:** local onde ficam algumas funções que adicionam mais capacidades aos temas;
+* **404.php:** mostrará um texto para avisar que o conteúdo não foi encontrado;
+* **style.css:** ficheiro onde fica as informações do tema e pode conter todo o conteudo CSS do tema (Opcional);
+* **comments.php:** Arquivo que possui o modelo do comentário;
+* **front-page.php:** Arquivo de modelo da página inicial;
+* **home.php:** O arquivo de modelo da página inicial, que é a front page por padrão. Se você utilizar uma página estática para a página inicial, este arquivo irá manter os últimos posts do blog;
+* **category.php:** Arquivo de modelo para categorias;
+* **tag.php:** Arquivo de modelo para tags;
+* **taxonomy.php:** Usado quando um termo personalizado é utilizado;
+* **author.php:**  Arquivo de modelo para exibir posts de autores;
+* **date.php:** Usado quando acessamos artigos por datas;
+* **attachment.php:** Arquivo de modelo para anexos;
+* **image.php:** Usado quando uma imagem única é acessada. Sobrescreve attachment.php;
 
 Para um tema funciona basta ter apenas os arquivos **style.css** e **index.php**. Entretanto seu tema não será robusto.
 
