@@ -181,7 +181,7 @@ Essa será a página principal, a primeira a ser vista quando acessarem seu site
 **NOTA:** Se você possui um template diferenciado para o header ou footer você pode criar um arquivo header-nomedesejado.php. Suponhamos que o arquivo seja header-modelo.php devemos chamá-lo dessa formar:
 
 ```php
-<?php get_header('modelo');
+<?php get_header('modelo'); ?>
 ```
 
 
