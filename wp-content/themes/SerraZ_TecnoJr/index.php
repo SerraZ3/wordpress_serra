@@ -3,10 +3,15 @@
 
 <div id="conteudo">
     <div id="artigos">
+
+        <!-- get_template_part(); = Pela o template a parte do index e chama -->
+        <!-- Está pegando o codigo do loop -->
+        <?php get_template_part('loop', 'index'); ?>
+
+    </div>
         <div class="artigo">
-            <h2>Titulo do artigo 1</h2>
-            <p>Postado por administrador em 16/01/2012</p>
-            <p>Conteudo do artigo</p>
+            
+
         </div>
          
         <div class="artigo">
