@@ -88,11 +88,22 @@ Crie uma pasta em **"/wp-content/themes/"**. Essa pasta devera ter o nome do seu
 * css/main-style.css: Pasta fica o codigo principal do CSS
 * sidebar.php: onde fica o código da lateral da página;
 * single.php: código que mostra o artigo na sua própria página;
+* single-{post-type}.php: ??
 * page.php: código que mostra o conteúdo de uma página estática;
 * archive.php: o código nesta parte vai mostrar os artigos que estão no arquivo, nas categorias, tags, etc;
 * functions.php: local onde ficam algumas funções que adicionam mais capacidades aos temas;
 * 404.php: mostrará um texto para avisar que o conteúdo não foi encontrado;
-* style.css: ficheiro onde fica as informações do tema e pode conter todo o conteudo CSS do tema (Opcional).
+* style.css: ficheiro onde fica as informações do tema e pode conter todo o conteudo CSS do tema (Opcional);
+* comments.php: Arquivo que possui o modelo do comentário;
+* front-page.php: ??
+* home.php: ??
+* category.php: ??
+* tag.php: ??
+* taxonomy.php: ??
+* author.php: ??
+* date.php: ??
+* attachment.php: ??
+* image.php: ??
 
 Para um tema funciona basta ter apenas os arquivos **style.css** e **index.php**. Entretanto seu tema não será robusto.
 
@@ -159,9 +170,18 @@ Essa será a página principal, a primeira a ser vista quando acessarem seu site
 			<!-- the_date(); mostra a data em que foi postado -->
 			<?php the_date(); ?>
 			
+			<!-- Se existe apenas um poste mostrar conteúdo ou aqui for a página do post -->
+			<?php if ( is_single() || is_page() ): ?>
+
 			<!-- the_content(); mostra o conteúdo do poster -->
 			<?php the_content(); ?>
 			
+			<!-- Se não... -->
+			<?php else: ?>
+				<!-- Resumo do post -->
+				<?php the_excerpt(); ?>
+			<?php endif; ?>
+
 		</div>
 
 		<!-- Finaliza o loop -->
